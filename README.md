@@ -1,6 +1,6 @@
 # greenthreatre.kiev.ua
 
-Museum workshop for the greentheatre.kiev.ua site. WIP.
+Museum workshop for the greentheatre.kiev.ua site.
 
 Site was created April 9th, 1999 by Max Tulyev.
 
