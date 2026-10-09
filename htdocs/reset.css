@@ -2,6 +2,10 @@
    Keep selectors at zero specificity so site styles can override them. */
 
 :where(html) {
+    /* Keep the 795px header and desktop columns inside the page. */
+    min-width: 820px;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
     color-scheme: light;
     color: #000000;
     font-family: "Times New Roman", Times, serif;
