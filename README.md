@@ -8,13 +8,13 @@ Site was created April 9th, 1999 by Max Tulyev.
 
 - [x] Change encoding to utf-8
 - [x] Rambler button emulation
-- [ ] Mobile and responsive viewport
+- [x] Mobile and responsive viewport
+- [x] "Museum piece" signage
+- [x] /random handler
 - [ ] Redo thumbnails? Supportive argument: images retina flatscreens look nowhere close to what they did look like on CRTs
-- [ ] "Museum piece" signage
 - [x] Explicitly list default fonts and colors of ancient browsers in additional non-invasive CSS
-- [ ] Additional meta in headers: stylesheet, javascript, museum signage
+- [x] Additional meta in headers: stylesheet, javascript, museum signage
 - [ ] Update Egor's pictures with better versions
-- [ ] /random handler
 
 ## Restoration process
 
