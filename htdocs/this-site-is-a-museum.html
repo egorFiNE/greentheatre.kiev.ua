@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Этот сайт сохраняется как музей</title>
+    <style>
+      body {
+        margin: 0;
+        background: #408249;
+        color: #fff;
+        font: 18px/1.6 Arial, Helvetica, sans-serif;
+      }
+
+      main {
+        max-width: 36rem;
+        margin: 8vh auto;
+        padding: 0 1.25rem;
+      }
+
+      h1 {
+        margin: 0 0 1.5rem;
+        font-size: 2rem;
+        line-height: 1.2;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .proceed-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3em;
+        font-weight: bold;
+      }
+
+      .proceed-link::after {
+        content: "";
+        width: 0.25em;
+        height: 0.25em;
+        border-top: 1.5px solid currentColor;
+        border-right: 1.5px solid currentColor;
+        transform: translateY(0.05em) rotate(45deg);
+      }
+
+      p {
+        margin: 0 0 1.5rem;
+      }
+
+      ul {
+        margin: 0 0 1.5rem;
+        padding-left: 1.5rem;
+      }
+
+      code {
+        font-family: monospace;
+        white-space: nowrap;
+      }
+
+      @media (max-width: 40rem) {
+        main {
+          margin: 2rem auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Этот сайт сохраняется как музей</h1>
+
+      <p><code>greentheatre.kiev.ua</code> был создан Максом&nbsp;Тульевым (Max&nbsp;Tulyev, aka mt6561) 9 апреля 1999г. Последнее обновление вероятнее всего было сделано 7 августа 2000г.</p>
+
+      <p>Вот как мы провели &laquo;реставрацию&raquo; и как обслуживаем этот сайт:</p>
+
+      <ul>
+        <li>Максимально сохраняется оригинальный html, включая форматирование, пробелы в конце строк и т.п. артефакты;</li>
+        <li>Изменения в html отмечены <code>&lt;-- MUSEUM --&gt;</code></li>
+        <li>Кириллица сконвертирована в UTF-8;</li>
+        <li>Добавлен небольшой CSS reset для установки стилей, соответствующих Netscape Navigator на линуксе. Мы не проверяли, видны ли эти дефолтные броузерные стили на страничках сайта.</li>
+        <li>Неработающий уже счетчик Рамблера заменен оригинальной картинкой;</li>
+        <li>Ссылка <code>/random</code> теперь обслуживается маленьким джаваскриптом, равно как и музейный баннер;</li>
+        <li>Некоторые фотографии обновлены на версию с более высоким разрешением. Оригинальные файлы сайта доступны как <code>.original.jpg.</code></li>
+      </ul>
+
+      <p>Сайт обслуживает <a href="mailto:me@egorfine.com">Егор&nbsp;Егоров</a> (Egor&nbsp;Egorov, aka egorfine). <a href="https://github.com/egorFiNE/greentheatre.kiev.ua">Исходники доступны на github</a>.</p>
+
+      <p><a class="proceed-link" href="/index.html">Вернуться к сайту</a></p>
+    </main>
+  </body>
+</html>
