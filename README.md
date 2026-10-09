@@ -11,7 +11,7 @@ Site was created April 9th, 1999 by Max Tulyev.
 - [ ] Mobile and responsive viewport
 - [ ] Redo thumbnails? Supportive argument: images retina flatscreens look nowhere close to what they did look like on CRTs
 - [ ] "Museum piece" signage
-- [ ] Explicitly list default fonts and colors of ancient browsers in additional non-invasive CSS
+- [x] Explicitly list default fonts and colors of ancient browsers in additional non-invasive CSS
 - [ ] Additional meta in headers: stylesheet, javascript, museum signage
 - [ ] Update Egor's pictures with better versions
 - [ ] /random handler
@@ -25,3 +25,4 @@ Site was created April 9th, 1999 by Max Tulyev.
 - Rambler button image replaced
 - Some images updated with a higher resolution version (original preserved in this repository)
 - `MUSEUM` in html comments to indicate changes
+- CSS reset added emulating period-correct look of Netscape Navigator

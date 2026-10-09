@@ -1,0 +1,75 @@
+/* Netscape-era defaults for modern browsers. Load before site styles.
+   Keep selectors at zero specificity so site styles can override them. */
+
+:where(html) {
+    color-scheme: light;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: normal;
+}
+
+:where(body) {
+    margin: 8px;
+}
+
+/* Use only the fallback color; preserve BODY BACKGROUND and BGCOLOR. */
+:where(body:not([bgcolor])) {
+    background-color: #c0c0c0;
+}
+
+:where(a[href], area[href]) {
+    text-decoration: underline;
+}
+
+:where(body:not([link]) a:link, body:not([link]) area:link) {
+    color: #0000ee;
+}
+
+:where(body:not([vlink]) a:visited, body:not([vlink]) area:visited) {
+    color: #551a8b;
+}
+
+:where(body:not([alink]) a[href]:active, body:not([alink]) area[href]:active) {
+    color: #ff0000;
+}
+
+:where(h1) {
+    font-size: 2em;
+    margin-block: 0.67em;
+}
+
+:where(h2) {
+    font-size: 1.5em;
+    margin-block: 0.83em;
+}
+
+:where(h3) {
+    font-size: 1.17em;
+    margin-block: 1em;
+}
+
+:where(h4) {
+    font-size: 1em;
+    margin-block: 1.33em;
+}
+
+:where(h5) {
+    font-size: 0.83em;
+    margin-block: 1.67em;
+}
+
+:where(h6) {
+    font-size: 0.67em;
+    margin-block: 2.33em;
+}
+
+:where(pre, code, kbd, samp, tt) {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+}
+
+/* Linked images had borders unless the author supplied BORDER. */
+:where(a[href] img:not([border])) {
+    border: 2px solid currentColor;
+}
