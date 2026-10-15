@@ -11,10 +11,10 @@ Site was created April 9th, 1999 by Max Tulyev.
 - [x] Mobile and responsive viewport
 - [x] "Museum piece" signage
 - [x] /random handler
-- [ ] Redo thumbnails? Supportive argument: images retina flatscreens look nowhere close to what they did look like on CRTs
+- [x] Redo thumbnails? Supportive argument: images retina flatscreens look nowhere close to what they did look like on CRTs
 - [x] Explicitly list default fonts and colors of ancient browsers in additional non-invasive CSS
 - [x] Additional meta in headers: stylesheet, javascript, museum signage
-- [ ] Update Egor's pictures with better versions
+- [x] Update Egor's pictures with better versions
 
 ## Restoration process
 
